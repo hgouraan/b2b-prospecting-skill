@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "b2b-prospecting run outputs",
+  "type": "object",
+  "required": ["accounts.csv", "qualified-leads.csv", "disqualified-leads.csv", "outreach-drafts.md", "state.json"],
+  "properties": {
+    "accounts.csv": {"const": "normalized, deduplicated organizations keyed by canonical domain"},
+    "qualified-leads.csv": {"const": "rows at or above the configured threshold with score components and reasons"},
+    "disqualified-leads.csv": {"const": "rejected rows with non-empty human-readable reasons"},
+    "outreach-drafts.md": {"const": "draft-only tailored messages; suppressed accounts absent"},
+    "state.json": {"$ref": "state.schema.json"}
+  },
+  "additionalProperties": true
+}

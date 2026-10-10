@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "run state",
+  "type": "object",
+  "required": ["run_id", "skill_version", "phase", "status", "completed_phases", "timestamps"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "skill_version": {"type": "string"},
+    "phase": {"type": "string"},
+    "status": {"enum": ["not_started", "in_progress", "blocked", "needs_review", "approved", "rejected", "completed"]},
+    "completed_phases": {"type": "array", "items": {"type": "string"}},
+    "approved_artifacts": {"type": "array", "items": {"type": "string"}},
+    "pending_questions": {"type": "array", "items": {"type": "string"}},
+    "assumptions": {"type": "array", "items": {"type": "string"}},
+    "timestamps": {"type": "object"}
+  },
+  "additionalProperties": true
+}

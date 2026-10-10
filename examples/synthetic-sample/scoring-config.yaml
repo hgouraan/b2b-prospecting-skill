@@ -1,0 +1,7 @@
+version: '1'
+threshold: 60
+weights:
+  target_segment: 40
+  has_website: 20
+  target_geography: 20
+  size_in_range: 20

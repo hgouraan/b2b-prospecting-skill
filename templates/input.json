@@ -1,0 +1,31 @@
+{
+  "offer": "Fictional SaaS: bilingual booking and CRM for local service businesses in Saudi Arabia",
+  "icp_hypotheses": [
+    "Local service businesses with 5-100 staff and no existing CRM",
+    "Owners who handle bookings over WhatsApp"
+  ],
+  "geography": "Saudi Arabia",
+  "target_segments": [
+    "clinics",
+    "gyms",
+    "restaurants"
+  ],
+  "qualification_rules": [
+    "segment in target_segments",
+    "has website or verifiable public presence",
+    "country is Saudi Arabia"
+  ],
+  "disqualifiers": [
+    "no verifiable presence",
+    "competitor product already in use"
+  ],
+  "outreach_channels": [
+    "email",
+    "whatsapp"
+  ],
+  "messaging_guidelines": "Arabic-first, short, no pressure; one value point per message",
+  "suppressed_account_ids": [
+    "A-003"
+  ],
+  "import_file": "import-raw.csv"
+}

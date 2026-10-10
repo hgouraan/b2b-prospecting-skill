@@ -1,0 +1,11 @@
+flowchart TD
+ A[Offer + ICP inputs] --> B[ICP definition]
+ B --> C[Company discovery or CSV import]
+ C --> D[Normalize + deduplicate]
+ D --> E[Verify source and freshness]
+ E --> F[Fit scoring]
+ F --> G{Meets qualification threshold?}
+ G -- No --> H[Reject or nurture list]
+ G -- Yes --> I[Account brief]
+ I --> J[Personalized outreach drafts]
+ J --> K[Human review + CRM export]

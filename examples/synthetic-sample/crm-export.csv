@@ -1,0 +1,15 @@
+account_id,company,domain,segment,country,score
+A-001,Fictional Restaurants Co 01,fic-restaurants-01.example,restaurants,Saudi Arabia,80
+A-005,Fictional Restaurants Co 05,fic-restaurants-05.example,restaurants,Saudi Arabia,80
+A-006,Fictional Clinics Co 06,fic-clinics-06.example,clinics,Saudi Arabia,80
+A-007,Fictional Gyms Co 07,fic-gyms-07.example,gyms,Saudi Arabia,80
+A-008,Fictional Clinics Co 08,fic-clinics-08.example,clinics,Saudi Arabia,80
+A-010,Fictional Gyms Co 10,fic-gyms-10.example,gyms,Saudi Arabia,80
+A-012,Fictional Clinics Co 12,fic-clinics-12.example,clinics,Saudi Arabia,80
+A-013,Fictional Clinics Co 13,fic-clinics-13.example,clinics,Saudi Arabia,80
+A-017,Fictional Gyms Co 17,fic-gyms-17.example,gyms,Saudi Arabia,80
+A-019,Fictional Restaurants Co 19,fic-restaurants-19.example,restaurants,Saudi Arabia,80
+A-020,Fictional Gyms Co 20,fic-gyms-20.example,gyms,Saudi Arabia,80
+A-021,Fictional Clinics Co 21,fic-clinics-21.example,clinics,Saudi Arabia,80
+A-022,Fictional Restaurants Co 22,fic-restaurants-22.example,restaurants,Saudi Arabia,80
+A-023,Fictional Gyms Co 23,fic-gyms-23.example,gyms,Saudi Arabia,80

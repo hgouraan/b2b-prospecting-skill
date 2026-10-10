@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "b2b-prospecting input",
+  "type": "object",
+  "required": ["offer", "icp_hypotheses", "geography", "target_segments", "qualification_rules", "disqualifiers", "outreach_channels"],
+  "properties": {
+    "offer": {"type": "string", "minLength": 1},
+    "icp_hypotheses": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "geography": {"type": "string", "minLength": 1},
+    "target_segments": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "qualification_rules": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "disqualifiers": {"type": "array", "items": {"type": "string"}},
+    "outreach_channels": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "messaging_guidelines": {"type": "string"},
+    "suppressed_account_ids": {"type": "array", "items": {"type": "string"}},
+    "import_file": {"type": "string"}
+  },
+  "additionalProperties": true
+}

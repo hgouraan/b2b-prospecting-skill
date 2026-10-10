@@ -1,0 +1,2 @@
+# Failure path
+A run stops when suppression handling is missing, duplicates are unresolved, or material claims lack a source register row. The validator reproduces three of these mechanically (duplicate-domain, suppression-breach, fabricated-contact) against a mutated copy of the synthetic sample; see evals/cases.yaml and tests/test_validation.py. Recovery: fix the artifact named in the error, re-validate, and resume from the last human-reviewed artifact.

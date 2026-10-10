@@ -1,0 +1,32 @@
+version: '1'
+gates:
+  - phase: icp
+    required_artifacts: [icp.md, segment-map.md]
+    machine_checks: [files_exist, state_fields]
+    human_checks: [icp_matches_offer, disqualifiers_complete]
+    approval_type: human_review
+  - phase: import
+    required_artifacts: [source-register.csv, accounts.csv]
+    machine_checks: [accounts_headers, unique_account_ids, unique_domains, source_register_fields]
+    human_checks: [source_legitimacy, coverage]
+    approval_type: human_review
+  - phase: scoring
+    required_artifacts: [scoring-config.yaml, qualified-leads.csv, disqualified-leads.csv]
+    machine_checks: [threshold_rule, score_components_sum, reasons_present, no_fabricated_contacts, suppression_excluded]
+    human_checks: [score_sanity, weight_fairness]
+    approval_type: human_review
+  - phase: briefs
+    required_artifacts: [account-briefs]
+    machine_checks: [one_brief_per_qualified, provenance_section]
+    human_checks: [brief_accuracy, no_invented_facts]
+    approval_type: human_review
+  - phase: drafts
+    required_artifacts: [outreach-drafts.md]
+    machine_checks: [draft_only_label, suppressed_absent, no_email_addresses]
+    human_checks: [tone, compliance_review, consent_status]
+    approval_type: human_approval_required_before_any_send
+  - phase: export
+    required_artifacts: [crm-export.csv]
+    machine_checks: [export_headers, qualified_only]
+    human_checks: [mapping_matches_crm]
+    approval_type: human_review

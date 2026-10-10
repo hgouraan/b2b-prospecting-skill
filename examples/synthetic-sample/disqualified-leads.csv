@@ -1,0 +1,11 @@
+account_id,name,score_total,score_components,reasons
+A-002,Fictional Real_Estate Co 02,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments
+A-003,Fictional Clinics Co 03,80,target_segment=40;has_website=20;target_geography=20;size_in_range=0,on suppression list - excluded from outreach
+A-004,Fictional Schools Co 04,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments
+A-009,Fictional Real_Estate Co 09,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments
+A-011,Fictional Schools Co 11,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments
+A-014,Fictional Schools Co 14,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments
+A-015,Fictional Schools Co 15,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments
+A-016,Fictional Real_Estate Co 16,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments
+A-018,Fictional Schools Co 18,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments
+A-024,Fictional Schools Co 24,40,target_segment=0;has_website=20;target_geography=20;size_in_range=0,segment not in target segments

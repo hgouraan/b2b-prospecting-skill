@@ -1,0 +1,3 @@
+source_id,source_ref,captured_date,confidence,claims
+S1,import-raw.csv (user-supplied prospect list),2026-10-10,medium,"company names, segments, cities, websites"
+S2,fictional public directory entry for fic-clinics-01.example,2026-10-10,low,"segment=clinics, city=Jeddah"

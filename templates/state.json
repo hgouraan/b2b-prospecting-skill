@@ -1,0 +1,28 @@
+{
+  "run_id": "synthetic-sample",
+  "skill_version": "0.1.0",
+  "phase": "export",
+  "status": "completed",
+  "completed_phases": [
+    "icp",
+    "import",
+    "scoring",
+    "briefs",
+    "drafts",
+    "export"
+  ],
+  "approved_artifacts": [
+    "icp.md",
+    "accounts.csv",
+    "qualified-leads.csv",
+    "outreach-drafts.md"
+  ],
+  "pending_questions": [],
+  "assumptions": [
+    "company sizes unknown; size_in_range scored 0"
+  ],
+  "timestamps": {
+    "started": "2026-10-10T00:00:00Z",
+    "finished": "2026-10-10T00:10:00Z"
+  }
+}

@@ -1,0 +1,18 @@
+version: '1'
+cases:
+  - id: happy-path
+    expect: sample validates clean
+    check: python3 scripts/validate.py examples/synthetic-sample
+  - id: missing-input
+    expect: validation fails when accounts.csv is absent
+    check: remove accounts.csv from a sample copy; validate exits 1
+  - id: duplicate-domain
+    expect: validation fails on two accounts sharing a canonical domain
+  - id: fabricated-contact
+    expect: validation fails when an email address appears in drafts or lead files
+  - id: failed-gate
+    expect: qualified lead below threshold fails; recovered by fixing components
+  - id: suppression-breach
+    expect: suppressed account id in outreach-drafts.md fails
+  - id: unsupported-tool
+    expect: web research without authorized tools is out of scope; import-first run unaffected

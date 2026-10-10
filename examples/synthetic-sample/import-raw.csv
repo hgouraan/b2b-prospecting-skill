@@ -1,0 +1,31 @@
+raw_name,website,city,segment,employees,notes
+Fictional Restaurants Co 01,https://www.fic-restaurants-01.example,Jeddah,restaurants,,
+Fictional Real_Estate Co 02,https://www.fic-real_estate-02.example,Dammam,real_estate,,
+Fictional Clinics Co 03,https://www.fic-clinics-03.example,Jeddah,clinics,,
+Fictional Schools Co 04,https://www.fic-schools-04.example,Jeddah,schools,,
+Fictional Restaurants Co 05,https://www.fic-restaurants-05.example,Dammam,restaurants,,
+Fictional Clinics Co 06,https://www.fic-clinics-06.example,Dammam,clinics,,
+Fictional Gyms Co 07,https://www.fic-gyms-07.example,Jeddah,gyms,,
+Fictional Clinics Co 08,https://www.fic-clinics-08.example,Riyadh,clinics,,
+Fictional Real_Estate Co 09,https://www.fic-real_estate-09.example,Jeddah,real_estate,,
+Fictional Gyms Co 10,https://www.fic-gyms-10.example,Jeddah,gyms,,
+Fictional Schools Co 11,https://www.fic-schools-11.example,Riyadh,schools,,
+Fictional Clinics Co 12,https://www.fic-clinics-12.example,Dammam,clinics,,
+Fictional Clinics Co 13,https://www.fic-clinics-13.example,Jeddah,clinics,,
+Fictional Schools Co 14,https://www.fic-schools-14.example,Jeddah,schools,,
+Fictional Schools Co 15,https://www.fic-schools-15.example,Dammam,schools,,
+Fictional Real_Estate Co 16,https://www.fic-real_estate-16.example,Jeddah,real_estate,,
+Fictional Gyms Co 17,https://www.fic-gyms-17.example,Jeddah,gyms,,
+Fictional Schools Co 18,https://www.fic-schools-18.example,Jeddah,schools,,
+Fictional Restaurants Co 19,https://www.fic-restaurants-19.example,Riyadh,restaurants,,
+Fictional Gyms Co 20,https://www.fic-gyms-20.example,Dammam,gyms,,
+Fictional Clinics Co 21,https://www.fic-clinics-21.example,Dammam,clinics,,
+Fictional Restaurants Co 22,https://www.fic-restaurants-22.example,Dammam,restaurants,,
+Fictional Gyms Co 23,https://www.fic-gyms-23.example,Jeddah,gyms,,
+Fictional Schools Co 24,https://www.fic-schools-24.example,Dammam,schools,,
+Fictional Clinics Co 01 Ltd,www.fic-clinics-01.example,Jeddah,clinics,,dup of 01
+FICT CLINICS 01,fic-clinics-01.example,,clinics,,dup of 01
+Fictional Gyms Co 02,http://fic-gyms-02.example/,Riyadh,gyms,,dup of 02
+Fictional Restaurant 27,,Jeddah,restaurants,,no website
+,fic-schools-28.example,Dammam,schools,,no name
+Fictional Real Estate 29,fic-re-29.example,,real_estate,,

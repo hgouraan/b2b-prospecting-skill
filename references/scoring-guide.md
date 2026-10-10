@@ -1,0 +1,2 @@
+# Scoring guide
+Scores judge company-level fit only. Each rule is a named weight in scoring-config.yaml; a lead's score_components lists `name=value` for every rule and must sum to score_total. Unknown evidence scores zero - absence of data is never positive evidence. Choose the threshold so a lead cannot qualify on a single strong signal alone. Review disqualified-leads.csv reasons weekly; a rejection reason is a rule outcome, not a judgment about the company.
